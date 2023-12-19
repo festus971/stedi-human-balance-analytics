@@ -23,7 +23,7 @@ job.init(args["JOB_NAME"], args)
 
 # Script generated for node Accelerometer Trusted
 AccelerometerTrusted_node1701002545619 = glueContext.create_dynamic_frame.from_catalog(
-    database="stedi_db",
+    database="stedi2",
     table_name="accelerometer_trusted",
     transformation_ctx="AccelerometerTrusted_node1701002545619",
 )
